@@ -57,6 +57,12 @@ a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
 }
 
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
 
 .row-header {
 	margin: 0px auto;
@@ -71,7 +77,7 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .footer {
-	background-color: #D1C4E9;
+	background-color: #cde5ec;
 	margin: 0px auto;
 	padding: 20px 0px 0px 0px;
 }
@@ -79,7 +85,7 @@ a, a:hover, a:active, a:visited, a:focus {
 .jumbotron {
 	padding: 70px 30px 70px 30px;
 	margin: 0px auto;
-	background: #9575CD;
+	background: #6288c2;
 	color: floralwhite;
 }
 
@@ -95,11 +101,23 @@ body{
 }
 
 .navbar-dark {
-     background-color: #512DA8;
+     background-color: #196597;
 }
 
 .google-map {
 	padding: 10px 0px;
 	border-radius: 100%;
 	overflow: hidden;		
+}
+.carousel {
+    background:#4194ad;
+}
+.carousel-item {
+  height: 300px;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
